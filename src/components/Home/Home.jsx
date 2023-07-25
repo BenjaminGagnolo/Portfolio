@@ -22,12 +22,12 @@ const Home = () => {
       <section>
         <NavBar />
       </section>
-      <div className="w-55 h-55 left-[65rem] top-[5rem] absolute overflow-hidden rounded-full z-50">
-        <img
+      <div className="w-[9rem] h-62 left-[65rem] top-[5rem] absolute overflow-hidden rounded-full z-50">
+        {/* <img
           className="object-cover w-full h-full hidden sm:block"
           src={aa}
           alt="Descripción de la imagen"
-        />
+        /> */}
       </div>
 
       <div className="relative isolate overflow-hidden py-24 sm:py-32 top-[0rem]">{/*bg-gray-900 */}
