@@ -14,7 +14,6 @@ const stats = [
   { name: "", value: "PostgreSQL" },
   { name: "", value: "Sequelize" },
   { name: "", value: "TailwindCSS" },
-  { name: "", value: "TailwindCSS" },
 ];
 const Home = () => {
   return (
