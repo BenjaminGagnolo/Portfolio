@@ -2,8 +2,8 @@ import NavBar from "../NavBar/NavBar";
 import bg from "../../assets/52979.jpg";
 import aa from "../../assets/aa.png";
 const links = [
-  { name: "Mi CV", href: "#" },
-  { name: "Proyectos", href: "#" },
+  { name: "CV", href: "#" },
+  { name: "Proyectos", href: "proyectos" },
   { name: "Tecnologias", href: "#" },
 ];
 const stats = [

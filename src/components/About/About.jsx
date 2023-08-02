@@ -27,14 +27,16 @@ const About = () => {
             </div>
             <div>
               <h2 className="text-3xl font-mono tracking-tight text-center text-white sm:text-4xl">
-                {"Un poco sobre mi"}
+                {"Towns"}
               </h2>
-              <p className="mt-4 text-white font-mono text-center bg-gray-900 rounded-lg">
-                🌱 Hola 👋, mi nombre es Benjamin, tengo 24 años y actualmente
-                soy FullStack Developer, aquí se encontrarán a una persona
-                sociable, entusiasta y perseverante, con muchas ganas de seguir
-                aprendiendo y demostrar las herramientas y capacidades que
-                tiene.
+              <p className="mt-4 text-black text-lg font-mono font-bold text-center bg-gradient-to-r from-blue-500 via-blue-600 via-blue-700 to-blue-800  rounded-t-[0.5rem] rounded-b-[2rem]">
+                Diseñé y creé un sitio web para un juego utilizando las
+                tecnologías React y TailwindCSS. Fui responsable de la
+                implementación de la interfaz de usuario, la creación de
+                componentes interactivos y la optimización del rendimiento del
+                sitio. Mi contribución ayudó a mejorar la experiencia de los
+                usuarios y a promover el juego de manera efectiva a través de la
+                plataforma web.
               </p>
               <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8"></dl>
             </div>
@@ -46,15 +48,13 @@ const About = () => {
           <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-12 sm:px-6 sm:py-12 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div>
               <h2 className="text-3xl font-mono tracking-tight text-center text-white sm:text-4xl">
-                {"Mis estudios"}
+                {"SPA estudio contable"}
               </h2>
-              <p className="mt-4 text-white font-mono text-center bg-gray-900 rounded-lg">
-                Además de ser recibido de la academia Henry, tambien realice
-                estudios en Coderhouse, donde adquiri los primeros conocimientos
-                en JavaScrip, React y Redux. 
-                {<br></br>}Cuento tambien con estudios
-                avanzados en la carrera de Imgenieria en computacion, cursandos
-                en la Universidad Nacional de Córdoba
+              <p className="mt-4 text-black text-lg font-mono font-bold text-center bg-gradient-to-r from-blue-500 via-blue-600 via-blue-700 to-blue-800 rounded-t-[0.5rem] rounded-b-[2rem]">
+                Proyecto para un estudio contable, donde desarrollé un sitio web
+                estático que proporciona información y servicios relacionados
+                con el estudio contable. En este caso se usó JavaScript, React,
+                TailwindCSS.
               </p>
               <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8"></dl>
             </div>
@@ -64,6 +64,34 @@ const About = () => {
                 alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
                 className="rounded-lg bg-gray-100 lg:hover:scale-105 transition-transform duration-300"
               />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="z-50 absolute top-[56rem] w-full">
+        <div className="bg-transparent">
+          <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-12 sm:px-6 sm:py-12 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+            <div className="grid gap-4">
+              <img
+                src={bg}
+                alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
+                className="rounded-lg bg-gray-100 lg:hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div>
+              <h2 className="text-3xl font-mono tracking-tight text-center text-white sm:text-4xl">
+                {"E-learning"}
+              </h2>
+              <p className="mt-4 text-black text-lg font-mono font-bold text-center bg-gradient-to-r from-blue-500 via-blue-600 via-blue-700 to-blue-800  rounded-t-[0.5rem] rounded-b-[2rem]">
+                API REST en Node.js bajo la metodología SCRUM, Esta permite
+                comprar y vender cursos, donde cada usuario puede monitorear
+                tanto sus cursos adquiridos como así también aquellos creados.
+                Se trabajó con JavaScript, React, Redux y CSS, además se
+                incorporó Node.js, Auth0, Express, PostgreSQL y Firebase, como
+                así también servicios de nube y entrega de notificación para el
+                mejor rendimiento.
+              </p>
+              <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8"></dl>
             </div>
           </div>
         </div>
