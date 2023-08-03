@@ -1,6 +1,6 @@
 import bg from "../../assets/52979.jpg";
 import NavBar from "../NavBar/NavBar";
-
+import towns from "../../assets/imagenName.png"
 const About = () => {
   return (
     <>
@@ -12,17 +12,17 @@ const About = () => {
         <img
           src={bg}
           alt="about"
-          className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
+          className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center sm:w-full sm:h-full"
         />
       </div>
-      <section className="z-50 absolute top-[5rem] w-full">
+      <section className="z-50 absolute top-[5rem] w-full py-[2rem]">
         <div className="bg-transparent">
           <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-12 sm:px-6 sm:py-12 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div className="grid gap-4">
               <img
-                src={bg}
+                src={towns}
                 alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
-                className="rounded-lg bg-gray-100 lg:hover:scale-105 transition-transform duration-300"
+                className="rounded-lg bg-gray-100 lg:hover:scale-105 transition-transform duration-300 lg:h-[24rem] lg:w-[35rem] sm:h-[12rem] sm:w-[22rem]"
               />
             </div>
             <div>
@@ -43,7 +43,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="z-50 absolute top-[30rem] w-full">
+      <section className="z-50 absolute top-[30rem] w-full py-[2rem]">
         <div className="bg-transparent">
           <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-12 sm:px-6 sm:py-12 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div>
@@ -68,7 +68,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="z-50 absolute top-[56rem] w-full">
+      <section className="z-50 absolute top-[56rem] w-full py-[2rem]">
         <div className="bg-transparent">
           <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-12 sm:px-6 sm:py-12 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div className="grid gap-4">
