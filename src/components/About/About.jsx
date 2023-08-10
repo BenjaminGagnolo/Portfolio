@@ -1,6 +1,6 @@
 import bg from "../../assets/52979.jpg";
 import NavBar from "../NavBar/NavBar";
-import towns from "../../assets/imagenName.png"
+import towns from "../../assets/imagenName.png";
 const About = () => {
   return (
     <>
@@ -15,8 +15,19 @@ const About = () => {
           className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center sm:w-full sm:h-full"
         />
       </div>
-      <section className="z-50 absolute top-[5rem] w-full py-[2rem]">
-        <div className="bg-transparent">
+      <section className="z-50 absolute top-[5rem] w-full py-[2rem] md:left-[5rem]">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg transform transition duration-300 hover:scale-105 group">
+          <img className="w-full" src={towns} alt="Imagen de la tarjeta" />
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2 group-hover:opacity-0 transition-opacity duration-500 ease-in-out">Título</div>
+            <p className="text-white text-base opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              Descripción breve Loremm ipsum dolor, sit amet consectetur
+              adipisicing eiis.
+            </p>
+          </div>
+        </div>
+
+        {/* <div className="bg-transparent">
           <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-12 sm:px-6 sm:py-12 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div className="grid gap-4">
               <img
@@ -41,7 +52,7 @@ const About = () => {
               <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8"></dl>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
       <section className="z-50 absolute top-[30rem] w-full py-[2rem]">
         <div className="bg-transparent">
