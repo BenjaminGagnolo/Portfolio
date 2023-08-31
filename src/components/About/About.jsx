@@ -1,5 +1,6 @@
 import NavBar from "../NavBar/NavBar";
 import towns from "../../assets/imagenName.png";
+
 const About = () => {
   return (
     <>

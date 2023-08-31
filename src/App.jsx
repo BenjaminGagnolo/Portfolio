@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home.jsx"
 import About from "./components/About/About.jsx";
+import About2 from "./components/About/About2.jsx";
 import Contacts from "./components/Contacts/Contacts.jsx";
  
 function App() {
@@ -9,7 +10,8 @@ function App() {
     <Routes>
       <Route exact path="/" element={<Home />}/>
       <Route exact path="/home" element={<Home />}/>
-      <Route exact path="/proyectos" element={<About />}/>
+{/*       <Route exact path="/proyectos" element={<About />}/>
+ */}      <Route exact path="/proyectos" element={<About2 />}/>
       <Route exact path="/contact" element={<Contacts />}/>
     </Routes>
     </BrowserRouter>

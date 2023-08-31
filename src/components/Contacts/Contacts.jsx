@@ -1,5 +1,4 @@
 import NavBar from "../NavBar/NavBar";
-import bg from "../../assets/52979.jpg";
 import { FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 const Contacts = () => {
@@ -9,13 +8,7 @@ const Contacts = () => {
         <NavBar />
       </section>
       <section>
-        <div className="relative isolate overflow-hidden py-24 sm:py-[20rem] bg-gray-900">
-          {/*bg-gray-900 ver fondo sm:py-32*/}
-          {/* <img
-            src={bg}
-            alt="about"
-            className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center sm:w-full sm:h-full"
-          /> */}
+        <div className="relative isolate overflow-hidden py-24 sm:py-[20rem] bg-gray-900">         
           <div
             className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
             aria-hidden="true"
