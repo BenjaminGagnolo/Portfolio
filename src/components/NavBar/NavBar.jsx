@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { Disclosure } from "@headlessui/react";
 import { XIcon, MenuIcon } from "@heroicons/react/outline";
+import { useState } from "react";
 
 const navigation = [
   { name: "Inicio", href: "home" },
@@ -14,7 +15,7 @@ function classNames(...classes) {
 
 function NavBar() {
   const location = useLocation();
-
+  
   return (
     <Disclosure
       as="nav"
@@ -39,10 +40,12 @@ function NavBar() {
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <Link
+                        onClick={() => handleClick()}
                         to={`/${item.href}`}
                         key={item.name}
                         className={classNames(
-                          "font-mono text-white text-lg",                    
+                          "font-mono text-white text-lg", 
+                          "hover:animate-pulse",                                        
                           "font-mono",
                           "py-2 px-3",
                           "border-b-2 border-transparent",
@@ -68,14 +71,14 @@ function NavBar() {
               </div>
             </div>
           </div>
-          <Disclosure.Panel className="sm:hidden bg-blue-900">
+          <Disclosure.Panel className="sm:hidden bg-gray-900">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
                 <Link
                   to={`/${item.href}`}
                   key={item.name}
                   className={classNames(
-                    "font-mono text-black ",
+                    "font-mono text-white ",
                     "block",
                     "font-medium",
                     "py-2 px-3",

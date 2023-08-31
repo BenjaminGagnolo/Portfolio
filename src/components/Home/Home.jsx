@@ -1,6 +1,8 @@
 import NavBar from "../NavBar/NavBar";
 import bg from "../../assets/52979.jpg";
 import aa from "../../assets/aa.png";
+import './home.css'; 
+
 const links = [
   { name: "CV", href: "#" },
   { name: "Proyectos", href: "proyectos" },
@@ -20,22 +22,8 @@ const Home = () => {
     <>
       <section>
         <NavBar />
-      </section>
-      <div className="w-[9rem] h-62 left-[65rem] top-[5rem] absolute overflow-hidden rounded-full z-50">
-        {/* <img
-          className="object-cover w-full h-full hidden sm:block"
-          src={aa}
-          alt="Descripción de la imagen"
-        /> */}
-      </div>
-
-      <div className="relative isolate overflow-hidden py-24 sm:py-32 top-[0rem]">{/*bg-gray-900 */}
-        <img
-          src={bg}
-          /*           src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
-           */ alt=""
-          className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
-        />
+      </section>    
+      <div className="relative isolate overflow-hidden py-24 sm:py-32 top-[0rem] bg-gray-900">      
         <div
           className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
           aria-hidden="true"
@@ -62,7 +50,7 @@ const Home = () => {
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl animate-bounce ">
               Full Stack Web Developer
             </h2>
             <p className="mt-6 text-lg leading-8 text-white">

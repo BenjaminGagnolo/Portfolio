@@ -1,0 +1,15 @@
+/* Home.css */
+
+@keyframes bounce-slow {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); /* Ajusta el valor según desees */
+    }
+  }
+  
+  .animate-bounce-slow {
+    animation: bounce-slow 2.2s infinite; /* Ajusta la duración según desees */
+  }
+  
